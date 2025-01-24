@@ -1,0 +1,99 @@
+:root {
+    --background-color: #fde7b5;
+    --primary-color: #db6e2b;
+    --text-color: #111;
+    --font-primary: "Lato", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    --font-secondary: "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-secondary);
+    font-size: 1.3rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    max-width: 1000px;
+    margin: auto;
+    line-height: 1.8rem;
+}
+
+header {
+    background: var(--primary-color);
+    padding: 1rem 0;
+    text-align: center;
+    color: white;
+}
+
+
+nav {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+nav .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin: 1rem 0;
+}
+
+article {
+    padding: 1rem;
+}
+
+article img {
+    max-width: 300px;
+    max-height: 300px;
+    display: block;
+    margin: 1rem auto;
+}
+
+h2 {
+    margin-top: 1.5rem;
+    color: var(--primary-color);
+}
+
+ul {
+    margin-left: 1.5rem;
+}
+
+address a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+address a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: left;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    border-top: 2px solid var(--primary-color);
+}
